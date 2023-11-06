@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #3c3c3c;
+    font-size: 17px;
+}
+
+
+/*FIM ESTILIZAÇÕES TEMPORÁRIAS*/
+
+.flex{
+    display: flex;
+}
+
+/*GLOBAL*/
+.container-global{
+    height: inherit;
+    max-width: 1200px;
+    margin: auto;
+}
+h1{
+    color: #703C2E;
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 20px;
+    color: #fff;
+}
+p{
+    color: #fff;
+}
+.texto-ascento{
+    font-weight: 600;
+}
+
+/*CABEÇALHO*/
+header{
+    height: 60px;
+    width: inherit;
+    padding: 30px 0;
+}
+header img{
+    height: 50px;
+}
+header nav{
+    width: 30%;
+}
+header nav a{
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    justify-content: space-between;
+}
+header #button{
+    background-color: #703C2E;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.estilo-cabecalho{
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*ÁREA PRINCIPAL*/
+main{
+    background-color: #F8EFF0;
+    padding: 100px 0px;
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+}
+.principal{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+main h2{
+    margin: auto;
+    text-align: center;
+}
+main img{
+    width: 130px;
+}
+/*RODAPÉ*/
+footer{
+    background-color: #3c3c3c;
+    justify-content: center;
+    padding: 5px;
+}
